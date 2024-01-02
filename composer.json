@@ -4,10 +4,27 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Syahdan\\CodeigniterDatatables\\": "src/"
+            "syahdans\\DataTables\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "MIT",
-    "require": {}
+    "authors": [
+        {
+            "name": "Sufilal Syahdan",
+            "email": "sufilal.syahdan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "prefer-stable": true,
+    "require-dev": {
+        "codeigniter4/devkit": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
 }
