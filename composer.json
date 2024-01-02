@@ -1,0 +1,13 @@
+{
+    "name": "syahdan/codeigniter-datatables",
+    "description": "Codeigniter DataTables is a package that handles the server side works of DataTables with Codeigniter 4.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Syahdan\\CodeigniterDatatables\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {}
+}
